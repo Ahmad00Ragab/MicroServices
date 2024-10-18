@@ -1,0 +1,30 @@
+what is Microservices Architechture?
+Microservices Architechture is a way of designing the software system as a collection of small services that  
+integerate and communicate with each other through a network (often REST APIs) and each small service is responsible
+for a buisiness capability and can be developed, deployed and scaled independently.
+
+
+what is the main reason that made us to use the Microservices Architechture?
+Diverse Technology Stacks : when we want to use different Technology stacks for different parts of our system,
+each Microservice has its own Technology stack.
+
+
+what is a service?
+a self-contained unit of functionality that perform a specific task.
+
+
+what is the meaning of Technology Agnostic?
+when we say the Microservice is Technology Agnostic, we could have a Microservice that is built using java 
+and another Microservice is built using python and those two Microservices integerate with each others.
+
+what is the monolothic system?
+a way of desiging the system as a single unified unit.
+
+
+what are the characterstics of Microservices?
+1. independent services : each service works independently (developed, deployed, and scaled)
+2. communicattion between services over a network : often through RESTFul APIs (synchronous communication) 
+or message queue (asynchronous communication)
+3. service discovery : services need to know how to reach each other.(done through service registery)
+4. API Gateway: ceneralized points that handles the requests coming from the clients to the microservices 
+5. database per service : each service has its own database
